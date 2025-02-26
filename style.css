@@ -50,7 +50,6 @@ body {
     transition: all 0.5s;
 
 }
- 
 
 .menu-item {
     display: flex;
@@ -71,18 +70,17 @@ body {
 }
 
 .item-txt {
-    width: 50%;
+    width: 60%;
     text-align: left;
 }
 
 .menu-item:hover {
     cursor: pointer;
     color: rgb(10, 248, 248);
-
-    
+    transform: scale(1.02);
 }
+
 
 button:focus~.dropdown-menu {
     display: block;
-    
 }
