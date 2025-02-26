@@ -30,13 +30,12 @@ body {
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 10px 10px 10px #4f3939;
-    transition: all 0.4s;
 }
 
-
 .dropdown-menu {
+    transition: all 0.4s;
     position: absolute;
-    top: 120%;
+    top: 130%;
     left: 0;
     background-color: #232121;
     color: #d3d0d0;
@@ -79,8 +78,11 @@ body {
 .menu-item:hover {
     cursor: pointer;
     color: rgb(10, 248, 248);
+
+    
 }
 
 button:focus~.dropdown-menu {
     display: block;
+    
 }
